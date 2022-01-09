@@ -7,7 +7,8 @@ align-items:center;
 display:flex;
 height:22vh;
 justify-content:space-between;
-margin: 0 10vw;
+padding: 0 10vw;
+width:100%;
 
 img{
     height: 16vh;

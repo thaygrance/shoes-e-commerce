@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header";
 import { Details } from "../../components/Details";
-import cartImg from "../../assets/images/shopping-cart-solid.png"
+import cartImg from "../../assets/images/shopping-cart-solid.png";
+import { Footer } from "../../components/Footer"
 
 export function ShoesDetails(){
     return(
@@ -9,6 +10,7 @@ export function ShoesDetails(){
             Seu Carrinho
         </Header>
         <Details/>
+        <Footer/>
         </>
     )
 }

@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const CardGrid = styled.main` 
     background: white;
     display:flex;
-    flex-wrap:wrap;   
+    flex-wrap:wrap;  
+    justify-content:center;
+    width:100%; 
 `; 
 
 export const Card = styled.div`

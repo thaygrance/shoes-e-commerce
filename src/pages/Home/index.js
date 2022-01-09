@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header";
 import { CardDiv } from "../../components/Cards"
 import cartImg from "../../assets/images/shopping-cart-solid.png"
+import { Footer } from "../../components/Footer"
 
 
 export function Home(){
@@ -10,6 +11,7 @@ export function Home(){
             Seu Carrinho
         </Header>
         <CardDiv/>
+        <Footer/>
         </>
     )
 }

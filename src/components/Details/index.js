@@ -1,7 +1,7 @@
 import api from "../../services/api";
 import { DetailsTag, ButtonTag } from "./styles";
-import { useEffect, useState } from "react";
-import {useParams} from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import {Link, useParams} from "react-router-dom";
 
 export function Details () {
 
@@ -23,25 +23,30 @@ export function Details () {
             <div id="img">
                 <img src={shoes.image} alt=""/>
             </div>
-            <div id="detais">
-                <h3> {shoes.name} </h3>
+            <div id="details">
+                <h2> {shoes.name} </h2>
                 <p>{shoes.description}</p>
-                <label for="tamanho">TAMANHO: </label>
+                <label for="tamanho">Tamanho: </label>
                 <select id="tamanho" name="tamanho">
-                    <option value="33-34">33-34</option>
-                    <option value="35-36">35-36</option>
-                    <option value="37-38">37-38</option>
-                    <option value="39-40">39-40</option>
+                    <option value="escolha">escolha o tamanho</option>
+                    <option value="33-34" >33-34</option>
+                    <option value="35-36" > 35-36</option>
+                    <option value="37-38" >37-38</option>
+                    <option value="39-40" >39-40</option>
                 </select>
-                <h3>PREÇO</h3>
-                <span></span>
-                <button>ADICIONAR AO CARRINHO</button>
+                <h3>Preço:<span>${shoes.price}</span></h3>
+                
+                <button>
+                    Adicionar ao Carrinho
+                </button>
             </div> 
         </DetailsTag>
         <ButtonTag>
-            <button> 
-                Voltar 
-            </button>        
+            <Link to={"/"}>
+                <button> 
+                    Voltar 
+                </button>       
+            </Link> 
         </ButtonTag>
         </>                     
     )
