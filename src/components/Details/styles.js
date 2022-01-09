@@ -16,11 +16,18 @@ export const DetailsTag = styled.main`
         align-items:center;
         height:460px;
         margin:5vh;
-        width:400px;
+        width:450px;
 
         img {
             width:100%;
         }
+
+        @media (orientation:portrait){
+        height: 140vw;
+        margin:0;
+        margin-bottom:5vh;
+        width:100%;
+    }
     }
 
     #details {    
@@ -32,10 +39,15 @@ export const DetailsTag = styled.main`
     margin:5vh;
     padding:30px;
     width:450px;
+
+    @media (orientation:portrait){
+        height: 140vw;
+        margin:0;
+        width:100%;
+    }
+
     }
     
-   
-
     h2 {
         font-family:'ffdin Medium', FFDIN, Arial, sans-serif;
         font-size:20px;
@@ -82,12 +94,13 @@ export const DetailsTag = styled.main`
         }
     }
     button{
+        align-self:center;
         background: #ec1f23;
         border:0;
         border-radius:5px;
         font-size:16px;
         height:40px;
-        margin:20px 115px;
+        margin:20px 0;
         width:180px;
 
         :hover {

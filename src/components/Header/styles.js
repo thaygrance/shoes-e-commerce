@@ -29,6 +29,7 @@ button{
     font-weight:bold;
     font-size:2.6vh;
     height:6vh;
+    min-width:140px;
     padding: 1vh;
     width:15vw; 
     
@@ -37,6 +38,14 @@ button{
         width:4vh;
         margin-right:1vh;
     }
+}
+
+@media (orientation:portrait){
+
+    img{
+    height:8vh;
+    }
+
 }
 
 `; 

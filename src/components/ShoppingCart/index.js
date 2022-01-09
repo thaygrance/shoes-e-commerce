@@ -55,6 +55,7 @@ export function ShoppingCart(){
     <MainTag>
     <h1>Dados Pessoais</h1>
     <ShoppingCartTag>
+    <div className="form">
     <form onSubmit={handleSubmit(onSubmit)}>
       <label>
         Nome completo <br/>
@@ -89,6 +90,8 @@ export function ShoppingCart(){
         <input id="whatsapp" type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="xx-xxxxx-xxxx" {...register("whatsapp" )}/><br/>
       </label>        
     </form>
+    </div>
+    
     <div className="cart">
     <table>
         <thead>
