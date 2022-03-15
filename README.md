@@ -8,6 +8,11 @@ Esse foi o primeiro e-commmerce que fiz. Ele consome uma API de sapatos da PUMA 
 
 
 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
