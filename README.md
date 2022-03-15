@@ -2,9 +2,7 @@ Esse foi o primeiro e-commmerce que fiz. Ele consome uma API de sapatos da PUMA 
 
 (tive um problema com o provedor da API, por isso não está carregando, mas, o gif abaixo mostra como o site tinha ficado =) ).
 
-< img alt="Gif da Página" width="500" src="Gravação de tela de 17-01-2022 10_39_01 (1).gif">
-
-
+<img align="center" alt="Gif rolagem do site" width="500" src="Gravação de tela de 17-01-2022 10_39_01 (1).gif">
 
 
 
