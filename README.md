@@ -1,3 +1,5 @@
+# E-commerce React JS
+
 Esse foi o primeiro e-commmerce que fiz. Ele consome uma API de sapatos da PUMA e o usuário pode acessar o modelo desejado para ver mais detalhes e escolher o tamanho desejado. Foi todo desenvolvido em components do React JS.
 
 (tive um problema com o provedor da API, por isso não está carregando, mas, o gif abaixo mostra como o site tinha ficado =) ).
